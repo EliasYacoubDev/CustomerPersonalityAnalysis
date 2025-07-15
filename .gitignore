@@ -1,0 +1,40 @@
+# ─────────────────────────────
+# Python & Streamlit Project
+# ─────────────────────────────
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# System / IDE metadata
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Environment variables
+*.env
+
+# Keep only raw data
+data/*
+!data/raw/
+
+# Ignore models and outputs
+models/
+dashboards/plotly/
+
+# Streamlit
+.streamlit/
+
+# Misc
+*.sqlite
+*.db
